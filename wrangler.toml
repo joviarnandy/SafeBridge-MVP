@@ -1,0 +1,12 @@
+# wrangler.toml
+name = "safebridge"
+pages_build_output_dir = ".svelte-kit/cloudflare"
+compatibility_date = "2025-01-01"
+
+[vars]
+# OLLAMA_API_KEY is set via `wrangler pages secret put OLLAMA_API_KEY`
+# Never committed to repository
+
+# Explicitly disable logging
+[observability]
+enabled = false

@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-primary: #1A1A2E;
+  --color-bg-secondary: #222240;
+  --color-bg-elevated: #2A2A4A;
+  --color-bg-input: #16162B;
+  
+  --color-text-primary: #D4D4E8;
+  --color-text-secondary: #9090B0;
+  --color-text-accent: #7B8CDE;
+  
+  --color-warning: #D4A855;
+  --color-success: #5BA87C;
+  --color-crisis: #C49A6C;
+  
+  --color-border: #333355;
+  --color-border-focus: #5B6BBD;
+  
+  --spacing: 4px;
+  
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --text-base: 18px;
+  --text-lg: 22px;
+  --text-sm: 15px;
+  --tracking-normal: 0em;
+  
+  --ease-custom: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+  
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+}
+
+:root {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  line-height: 1.65;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
