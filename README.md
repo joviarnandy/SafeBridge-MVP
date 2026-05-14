@@ -1,9 +1,5 @@
 # SafeBridge-MVP
 
-Here is a drafted `README.md` for your repository, structured to highlight the unique technical and ethical engineering of the project based on your write-up.
-
----
-
 # SafeBridge: Engineering a Zero-Stigma Communication Bridge for Trauma Survivors
 
 *AI for Social Good · NLP · Accessibility*
