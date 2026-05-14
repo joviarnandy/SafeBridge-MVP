@@ -1,5 +1,3 @@
-# SafeBridge-MVP
-
 # SafeBridge: Engineering a Zero-Stigma Communication Bridge for Trauma Survivors
 
 *AI for Social Good · NLP · Accessibility*
